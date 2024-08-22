@@ -1,0 +1,1 @@
+This is an automated exploratory data analysis web application. Use the "Browse File" button to upload a data file in CSV format. The application will quickly generate a comprehensive summary of the data, providing key insights and detailed analysis in a minimal amount of time.
