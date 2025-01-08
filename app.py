@@ -81,13 +81,3 @@ bottom_text = """
     </div>
     """
 st.markdown(bottom_text, unsafe_allow_html=True)
-
-
-def health_check():
-    return {"status": "healthy"}
-# Error handling for the main thread
-if __name__ == "__main__":
-    try:
-        st.run()
-    except Exception as e:
-        st.error(f"Application error: {str(e)}")
