@@ -12,7 +12,6 @@ from datetime import datetime
 def keep_alive():
     while True:
         try:
-            # Replace with your Render URL
             url = "https://eda-webapp-603r.onrender.com"
             response = requests.get(url)
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
